@@ -26,3 +26,5 @@ replay_pid*
 
 /target/
 .idea/
+src/main/java/net/staticstudios/testplugin/
+src/main/resources/plugin.yml
