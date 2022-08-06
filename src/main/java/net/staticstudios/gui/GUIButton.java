@@ -13,6 +13,9 @@ import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
+/**
+ * @author Sam (GitHub: <a href="https://github.com/Sammster10">Sam's GitHub</a>)
+ */
 public class GUIButton {
     private final Consumer<Player> onLeftClick;
     private final Consumer<Player> onRightClick;

@@ -17,6 +17,8 @@ import java.util.function.Consumer;
 
 /**
  * This class contains all methods to manage GUIs. To Create a GUI, use the GUICreator class.
+ *
+ * @author Sam (GitHub: <a href="https://github.com/Sammster10">Sam's GitHub</a>)
  */
 public class StaticGUI implements InventoryHolder {
 

@@ -9,6 +9,9 @@ import org.bukkit.entity.Player;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
+/**
+ * @author Sam (GitHub: <a href="https://github.com/Sammster10">Sam's GitHub</a>)
+ */
 public final class GUIBuilder {
 
     /**

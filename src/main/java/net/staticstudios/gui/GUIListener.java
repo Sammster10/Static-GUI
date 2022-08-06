@@ -8,6 +8,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.*;
 import org.bukkit.inventory.ItemStack;
 
+/**
+ * @author Sam (GitHub: <a href="https://github.com/Sammster10">Sam's GitHub</a>)
+ */
 public class GUIListener implements Listener {
 
     @EventHandler
@@ -44,8 +47,6 @@ public class GUIListener implements Listener {
         }
 
 
-
-
         try {
             if (e.getClick().isLeftClick()) {
                 button.onLeftClick().accept(player);
@@ -61,19 +62,6 @@ public class GUIListener implements Listener {
         }
         e.setCancelled(true);
 
-//        if (e.getCurrentItem() == null || e.getCurrentItem().getType().equals(Material.AIR)) {
-//            if (gui.getOnClickEmptySlot() != null) gui.getOnClickEmptySlot().accept(e);
-//            else e.setCancelled(true);
-//            return;
-//        }
-
-//        Consumer<InventoryClickEvent> listener = new GUIItem(e.getCurrentItem()).getListener();
-//        if (listener == null) {
-//            e.setCancelled(true);
-//            new GUIItem(e.getCurrentItem()).getRunnable().run((Player) e.getWhoClicked(), e.getClick());
-//            return;
-//        }
-//        listener.accept(e);
     }
 
     @EventHandler

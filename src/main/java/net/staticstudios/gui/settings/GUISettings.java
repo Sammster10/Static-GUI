@@ -1,5 +1,8 @@
 package net.staticstudios.gui.settings;
 
+/**
+ * @author Sam (GitHub: <a href="https://github.com/Sammster10">Sam's GitHub</a>)
+ */
 public class GUISettings {
     /**
      * Allow/disallow players to put their own items into the GUI.
