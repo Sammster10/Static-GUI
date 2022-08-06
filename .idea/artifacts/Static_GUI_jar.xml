@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Static-GUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Static_GUI_jar</output-path>
+    <root id="archive" name="Static-GUI.jar">
+      <element id="module-output" name="Static-GUI" />
+    </root>
+  </artifact>
+</component>
